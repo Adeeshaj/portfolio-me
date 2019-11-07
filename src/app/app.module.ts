@@ -15,6 +15,9 @@ import { ContactComponent } from './contact/contact.component';
   imports:      [ BrowserModule, FormsModule,
   RouterModule.forRoot([
       { path: '', component: WelcomeComponent },
+      { path: 'projects', component: ProjectsComponent},
+      { path: 'contact', component: ContactComponent},
+      { path: 'about', component: AboutComponent}
     ])
   ],
   declarations: [ AppComponent, HelloComponent, TopBarComponent, WelcomeComponent, AboutComponent, ProjectsComponent, ContactComponent ],
